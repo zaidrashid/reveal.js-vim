@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/simple.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +16,38 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<div>
+						<h2>Map VS Object</h2>
+						<h3>in Javascript</h3>
+          </div>
+				</section>
+				<section>
+					<table style="font-size: 2rem;">
+						<tr style="font-size: 4rem;">
+							<th>Map</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td>collection of Key-Value pairs</td>
+							<td>collection of Key-Value pairs</td>
+						</tr>
+						<tr>
+							<td>keys are ordered based on the first insert</td>
+							<td>keys are not in ordered when iterating</td>
+						</tr>
+						<tr>
+							<td>slower during creation</td>
+							<td>faster during creation</td>
+						</tr>
+						<tr>
+							<td>faster during search</td>
+							<td>slower during search</td>
+						</tr>
+					</table>
+
+
+				</section>
 			</div>
 		</div>
 
